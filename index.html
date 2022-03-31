@@ -2,49 +2,152 @@
 <html pt="br">
 <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,100&display=swap" rel="stylesheet">
     <title>Meu portfólio</title>
 </head>
+<style>
+    
+body{
+    background-color:#DDE8DD
+;
+    text-align:center;
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 12px;
+}
+.indice{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    text-align: right;
+    display: inline-block;
+    padding: 9px 15px;
+    background-color: #6E68C4;
+    color: white;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 22px;
+    text-underline-position: auto;
+
+}
+
+.button{
+    margin-top: 9px;
+    margin-bottom: 9px;
+    margin-left: 12px;
+    text-align: right;
+    display: inline-block;
+    padding: 9px 15px;
+    background-color: #036b52;
+    color: white;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 15px;
+
+}
+
+.foto{
+    border-radius: 20px 5px 20px 5px;
+    color: #036b52;
+    font-size: 22px;
+    line-height: 35px;
+    font-weight: 300;
+    border-color: black;
+}
+
+.txt{
+    
+    color: #036b52;
+    font-size: 28px;
+    line-height: 35px;
+    font-weight: 300;
+}
+
+.name{
+    color: #036b52;
+    font-size: 28px;
+    line-height: 35px;
+    font-weight: 600;
+}
+
+.txt2{
+    text-align: justify;
+    color: #036b52;
+    font-size: 22px;
+    line-height: 35px;
+    font-weight: 300;
+    border-color: black;
+    
+}
+.txt3
+{
+    text-align: justify;
+    color: #036b52;
+    font-size: 22px;
+    line-height: 35px;
+    font-weight: 300;
+    border-color: black;
+    border-radius: 15px;
+    line-height: inherit;
+}
+.txt4
+{
+    color: #036b52;
+    font-size: 16px;
+    line-height: 35px;
+    font-weight: 300;]
+}
+</style>
 <body >
-    <h3>Índice</h3>
-    <a href="#Sobremim">Sobre mim.</a><br>
-    <a href="#habilidades">Algumas Habilidades Minhas.</a><br>
-    <a href="#blog">Veja minha foto e blogs que gosto.</a><br>
+    <h3 class="indice">Índice</h3>
+    <hr>
+    <a href="#Sobremim" class="button">Sobre mim.</a><br>
+    <a href="#habilidades" class="button">Algumas Habilidades Minhas.</a><br>
+    <a href="#blog" class="button">Veja minha foto e blogs que gosto.</a><br>
      <br>
     <hr>
-    <h3 id="Sobremim">Wanderson Gomes Morais</h3>
+    <h3 id="Sobremim" class="name">Wanderson Gomes Morais</h3>
     <img src="IMG_9426 (2).jpg" alt="Minha Foto Pessoal" title="Foto Pessoal"
-    width="200px" height="200px"><br>Minha Foto Pessoal em um dia de lazer.</a>
+    width="200px" height="200px" class="foto" ><br><p class="txt4"><em>"Minha Foto Pessoal em um dia de lazer".</em></p></a>
     <br>
     <br>
-    <p>Sou estudante da <strong>Trybe</strong>, buscando sucesso profissional e em transição de carreira,<br>Gosto de ver animes estudar e claro <em>Programação e aprender sempre.</em>
+    <p class="txt">Sou estudante da <strong>Trybe</strong>, buscando sucesso profissional e em transição de carreira,<br>Gosto de ver animes estudar e claro <em>Programação e aprender sempre.</em>
         <br>Sou <strong>Brasileiro</strong>, tenho 26 anos e moro em <em>Brasília - DF,<br>
         </em>estou bastante ansioso pelo que vem pra frente sobre desafios onde irei sempre <br>aprender mais
         e que a regra geral é: seja qual for não desista! </p>
-     <hr>
+     <hr> 
 
-     <h4 id="habilidades">Algumas Habilidades minha</h4>
-     <ul>
-         <li>Conhecimento basíco em PHP.</li>
-         <li>Inglês básico. </li>
-         <li>Determinado.</li>
-         <li>Focado.</li>
-         <li>Aprendo rápido.</li>
-         <li>insistente</li>
-         <li>Sonhador. </li>
-         <li>Tenho bastante empatia.</li>
-         <li>Perfil analítico.</li>
-         <li>sou fácil de fazer amizades.</li>
-         <li>Estudante da Trybe.</li>
-         <li>Bom jogador</li>
-         <li>. </li>
+     <h4 id="habilidades" class="txt3">Algumas Habilidades minha</h4>
+     <ul class="txt2" >
+         <li class="txt2">Conhecimento basíco em PHP.</li>
+         <li class="txt2">Inglês básico. </li>
+         <li class="txt2">Determinado.</li>
+         <li class="txt2">Focado.</li>
+         <li class="txt2">Aprendo rápido.</li>
+         <li class="txt2">insistente</li>
+         <li class="txt2"> Sonhador. </li>
+         <li class="txt2">Tenho bastante empatia.</li>
+         <li class="txt2">Perfil analítico.</li>
+         <li class="txt2">sou fácil de fazer amizades.</li>
+         <li class="txt2">Estudante da Trybe.</li>
+         <li class="txt2">Bom jogador</li>
+         <li class="txt2">.</li>
          <hr>
          <br>
      </ul>
-     <a href="IMG_9426 (2).jpg" target="_blink" id="blog">Veja minha foto aqui.</a><br>
+     <a href="IMG_9426 (2).jpg" target="_blink" id="blog" class="button">Veja minha foto aqui.</a><br>
      <br>
-     <a href="https://codepen.io/" target="_blink">Link do Blog que gosto.</a><br>
+     <a href="https://codepen.io/" target="_blink" class="button">Link do Blog que gosto.</a><br>
      <br>
-     <a href="https://bityli.com/IHwBF" target="_blink">Site de animes que gosto.</a>
+     <a href="https://bityli.com/IHwBF" target="_blink" class="button">Site de animes que gosto.</a>
      <hr>
     </body>
 </html>
